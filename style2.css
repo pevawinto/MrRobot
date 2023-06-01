@@ -1,0 +1,45 @@
+body{
+    background-color: #181818;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swipe{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 50%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: red;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: red;
+}
+
+h2, p{
+    color: #181818;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+    float: right;
+}
+
+.text{
+    color: #181818;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

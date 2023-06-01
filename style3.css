@@ -1,0 +1,37 @@
+body{
+    background-color: #181818;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px  0 20ç
+}
+.container .box{
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+}
+
+.container .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+    
+
+.container .dream img{
+    width: 100%;
+    padding-bottom: 35px;
+    border-radius: 50px;
+
+}
+
+header{
+    text-align: center;
+    margin: auto;
+}
+    
